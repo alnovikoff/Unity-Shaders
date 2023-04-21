@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 55f3db90aa77c8743bd77cbe779b663b, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 99e62108bca9cba4e842d83f88b53c9a, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: c7efddb961872a4428cf2c09cde98809, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothnessMap:
+        m_Texture: {fileID: 2800000, guid: 216aed61d2bc7c740b1a51d02cd37945, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 6a78a01f9ba930043b72021ebaa732d1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: dfe405db752b7b54fb343cda4956741a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindTex:
+        m_Texture: {fileID: 2800000, guid: f62a6cb40f7e66a4fbffa915b568d53f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1.92, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DepthMaxDistance: 1
+    - _FoamDistance: 0.79
+    - _FoamMaxDistance: 3.27
+    - _FoamMinDistance: 4.25
+    - _HeightCutoff: -9.01
+    - _HeightFactor: 4.62
+    - _Speed: 2.86
+    - _Steepness: 0.181
+    - _SurfaceNoiseCutoff: 0.287
+    - _Value1: 7.78
+    - _Value2: 13.12
+    - _Value3: 8.97
+    - _Value4: 9.89
+    - _Value5: 9.09
+    - _Value6: 5
+    - _Value7: 0.778
+    - _Value8: 0.384
+    - _Value9: 0.744
+    - _WaveAmp: 0.09
+    - _WaveLenth: 3.33
+    - _WaveSpeed: 1.33
+    m_Colors:
+    - _DepthGradientDeep: {r: 0.08599999, g: 0.40699998, b: 1, a: 0.749}
+    - _DepthGradientShallow: {r: 0.32499996, g: 0.807, b: 0.971, a: 0.725}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WindSpeed: {r: 0.5, g: 2.5, b: 2.5, a: 1}
+    - _WorldSize: {r: 10, g: 1, b: 10, a: 1}
+  m_BuildTextureStacks: []

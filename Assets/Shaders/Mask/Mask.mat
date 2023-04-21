@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mask
+  m_Shader: {fileID: 4800000, guid: 19c56e1398ec94c4f8b75979847b887f, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 3fe364ff9c834004381adf2e0d317902, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ErodeMetallicSmoothnessMap:
+        m_Texture: {fileID: 2800000, guid: 7357f8b5f2be9f64ca776a6b8a86a702, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ErodeNormalMap:
+        m_Texture: {fileID: 2800000, guid: 64280d2b404c8a24992c9affae9d63a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ErodeOcclusionMap:
+        m_Texture: {fileID: 2800000, guid: bfe734a3fe605874192d82f5832a9792, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ErodeTexture:
+        m_Texture: {fileID: 2800000, guid: f9333ef1b4086ad40946353873a537ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3fe364ff9c834004381adf2e0d317902, type: 3}
+        m_Scale: {x: 1.31, y: 2.96}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: dc6789f28422a7443abf2169d6c498ce, type: 3}
+        m_Scale: {x: 1.97, y: 1}
+        m_Offset: {x: 0.5, y: 0}
+    - _MetallicSmoothnessMap:
+        m_Texture: {fileID: 2800000, guid: d44e02eedabcdbd40947263cad915ab5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 90c8659f62fa5344d801b52e846fe3d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 6e2274abc0bf6d14ba641bd81099761a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DstFactor: 8
+    - _Feater: 0.58
+    - _Oop: 0
+    - _RevealValue: 0.66
+    - _ScrFactor: 5
+    m_Colors: []
+  m_BuildTextureStacks: []
